@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  CheesecakeView.swift
 //  FavouriteThings
 //
 //  Created by Russell Gordon on 2021-10-21.
@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CheesecakeView: View {
     var body: some View {
-        Image("Piper")
+        Image("Cheesecake")
             .resizable()
             .scaledToFit()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CheesecakeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CheesecakeView()
     }
 }
