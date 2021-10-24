@@ -36,6 +36,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0A13AF272626E90050231A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0EDBF7D72721EF4A00F21448 /* ContentView.swift */,
+				0EDBF7E32721F4AE00F21448 /* CheesecakeView.swift */,
+				0E0A13AD2722CEF60050231A /* BlueJaysView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0EDBF7C92721EF4A00F21448 = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				0EDBF7D52721EF4A00F21448 /* FavouriteThingsApp.swift */,
-				0EDBF7D72721EF4A00F21448 /* ContentView.swift */,
+				0E0A13AF272626E90050231A /* Views */,
 				0EDBF7D92721EF4C00F21448 /* Assets.xcassets */,
 				0EDBF7DB2721EF4C00F21448 /* Preview Content */,
-				0EDBF7E32721F4AE00F21448 /* CheesecakeView.swift */,
-				0E0A13AD2722CEF60050231A /* BlueJaysView.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
