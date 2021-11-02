@@ -11,9 +11,7 @@ struct JenView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                Image("Jen")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView()
                 
                 Text("""
 My spouse, Jen, is certainly not a "thing" but a member of my family whom I love and appreciate more than anything.
