@@ -29,7 +29,7 @@ If you like lasagna, [try this recipe](https://www.allrecipes.com/recipe/24074/a
                 Spacer()
             }
         }
-        .navigationTitle("Jen")
+        .navigationTitle("Lasagna")
         
     }
 }
@@ -39,3 +39,5 @@ struct LasagnaView_Previews: PreviewProvider {
         LasagnaView()
     }
 }
+
+
