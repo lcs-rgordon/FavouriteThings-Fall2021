@@ -12,26 +12,7 @@ struct LasagnaView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 
-                VStack(alignment: .leading) {
-                    
-                    Image("Lasagna")
-                        .resizable()
-                        .scaledToFit()
-                    
-                    VStack(alignment: .leading) {
-                        
-                        Text("A really nice dish of lasagna.")
-                            .font(.caption)
-                            .bold()
-                        
-                        Text("Photo credit: Foodom")
-                            .font(.caption)
-                            .italic()
-
-                    }
-                    .padding(.horizontal)
-
-                }
+                ExtractedView()
                 
                 
                 Text("""
@@ -62,3 +43,28 @@ struct LasagnaView_Previews: PreviewProvider {
 }
 
 
+
+struct ExtractedView: View {
+    var body: some View {
+        VStack(alignment: .leading) {
+            
+            Image("Lasagna")
+                .resizable()
+                .scaledToFit()
+            
+            VStack(alignment: .leading) {
+                
+                Text("A really nice dish of lasagna.")
+                    .font(.caption)
+                    .bold()
+                
+                Text("Photo credit: Foodom")
+                    .font(.caption)
+                    .italic()
+                
+            }
+            .padding(.horizontal)
+            
+        }
+    }
+}
