@@ -10,7 +10,7 @@
 		0E0A13AE2722CEF60050231A /* BlueJaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A13AD2722CEF60050231A /* BlueJaysView.swift */; };
 		0E0A13B1272631150050231A /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A13B0272631150050231A /* FavouriteThingsListView.swift */; };
 		0EDBF7D62721EF4A00F21448 /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBF7D52721EF4A00F21448 /* FavouriteThingsApp.swift */; };
-		0EDBF7D82721EF4A00F21448 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBF7D72721EF4A00F21448 /* ContentView.swift */; };
+		0EDBF7D82721EF4A00F21448 /* PiperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBF7D72721EF4A00F21448 /* PiperView.swift */; };
 		0EDBF7DA2721EF4C00F21448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBF7D92721EF4C00F21448 /* Assets.xcassets */; };
 		0EDBF7DD2721EF4C00F21448 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBF7DC2721EF4C00F21448 /* Preview Assets.xcassets */; };
 		0EDBF7E42721F4AE00F21448 /* CheesecakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBF7E32721F4AE00F21448 /* CheesecakeView.swift */; };
@@ -21,7 +21,7 @@
 		0E0A13B0272631150050231A /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 		0EDBF7D22721EF4A00F21448 /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDBF7D52721EF4A00F21448 /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
-		0EDBF7D72721EF4A00F21448 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0EDBF7D72721EF4A00F21448 /* PiperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiperView.swift; sourceTree = "<group>"; };
 		0EDBF7D92721EF4C00F21448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EDBF7DC2721EF4C00F21448 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EDBF7E32721F4AE00F21448 /* CheesecakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheesecakeView.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		0E0A13AF272626E90050231A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0EDBF7D72721EF4A00F21448 /* ContentView.swift */,
+				0EDBF7D72721EF4A00F21448 /* PiperView.swift */,
 				0EDBF7E32721F4AE00F21448 /* CheesecakeView.swift */,
 				0E0A13AD2722CEF60050231A /* BlueJaysView.swift */,
 				0E0A13B0272631150050231A /* FavouriteThingsListView.swift */,
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EDBF7E42721F4AE00F21448 /* CheesecakeView.swift in Sources */,
-				0EDBF7D82721EF4A00F21448 /* ContentView.swift in Sources */,
+				0EDBF7D82721EF4A00F21448 /* PiperView.swift in Sources */,
 				0E0A13B1272631150050231A /* FavouriteThingsListView.swift in Sources */,
 				0EDBF7D62721EF4A00F21448 /* FavouriteThingsApp.swift in Sources */,
 				0E0A13AE2722CEF60050231A /* BlueJaysView.swift in Sources */,

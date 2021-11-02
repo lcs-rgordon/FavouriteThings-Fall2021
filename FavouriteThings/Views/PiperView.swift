@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PiperView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
@@ -29,10 +29,10 @@ Tellus molestie nunc non blandit massa enim nec dui. Neque sodales ut etiam sit.
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct PiperView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ContentView()
+            PiperView()
         }
     }
 }

@@ -11,7 +11,7 @@ struct FavouriteThingsListView: View {
     var body: some View {
         List {
             
-            NavigationLink(destination: ContentView()) {
+            NavigationLink(destination: PiperView()) {
                 Text("Piper")
             }
             
