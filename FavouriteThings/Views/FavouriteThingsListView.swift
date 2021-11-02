@@ -12,7 +12,19 @@ struct FavouriteThingsListView: View {
         List {
             
             NavigationLink(destination: BlueJaysView()) {
-                Text("Blue Jays")
+                HStack {
+                    Image("BlueJays")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 50, height: 50, alignment: .center)
+                        .clipped()
+                    VStack(alignment: .leading) {
+                        Text("Blue Jays")
+                            .bold()
+                        Text("The Blue Jays are without a doubt the best team in the AL East.")
+                            .font(.caption)
+                    }
+                }
             }
 
             NavigationLink(destination: CheesecakeView()) {
