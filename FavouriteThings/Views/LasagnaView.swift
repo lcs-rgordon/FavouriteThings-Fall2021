@@ -11,9 +11,28 @@ struct LasagnaView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                Image("Lasagna")
-                    .resizable()
-                    .scaledToFit()
+                
+                VStack(alignment: .leading) {
+                    
+                    Image("Lasagna")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    VStack(alignment: .leading) {
+                        
+                        Text("A really nice dish of lasagna.")
+                            .font(.caption)
+                            .bold()
+                        
+                        Text("Photo credit: Foodom")
+                            .font(.caption)
+                            .italic()
+
+                    }
+                    .padding(.horizontal)
+
+                }
+                
                 
                 Text("""
 What else is there to say here? Lasagna is obviously awesome. 🍴😋
@@ -36,7 +55,9 @@ If you like lasagna, [try this recipe](https://www.allrecipes.com/recipe/24074/a
 
 struct LasagnaView_Previews: PreviewProvider {
     static var previews: some View {
-        LasagnaView()
+        NavigationView {
+            LasagnaView()
+        }
     }
 }
 
