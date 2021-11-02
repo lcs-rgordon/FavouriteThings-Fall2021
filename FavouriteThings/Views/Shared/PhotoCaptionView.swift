@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct PhotoCaptionView: View {
+    
+    // MARK: Stored properties
+    // When this structure is instantiated, these properties
+    // must be populated by provided arguments
+    let imageName: String
+    let caption: String
+    let credit: String
+    
     var body: some View {
         VStack(spacing: 10) {
             
@@ -31,6 +39,8 @@ struct PhotoCaptionView: View {
 
 struct PhotoCaptionView_Previews: PreviewProvider {
     static var previews: some View {
-        PhotoCaptionView()
+        PhotoCaptionView(imageName: "TBD",
+                         caption: "TBD",
+                         credit: "TBD")
     }
 }
