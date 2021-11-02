@@ -16,9 +16,13 @@ struct BlueJaysView: View {
                     .scaledToFit()
                 
                 Text("""
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Laoreet sit amet cursus sit amet. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Integer feugiat scelerisque varius morbi. Dapibus ultrices in iaculis nunc sed augue. Vehicula ipsum a arcu cursus vitae congue mauris. Pulvinar sapien et ligula ullamcorper malesuada proin. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Vivamus arcu felis bibendum ut tristique et egestas. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Quis vel eros donec ac odio tempor orci dapibus ultrices. Cursus turpis massa tincidunt dui ut ornare lectus. Proin libero nunc consequat interdum varius sit amet.
+Growing up in Kitchener-Waterloo, I spent a lot of time with family that lived in areas nearby. My Aunt Phyllis and Uncle Bert in particular introduced me to baseball – or more specificially – Blue Jays baseball!
 
-Tellus molestie nunc non blandit massa enim nec dui. Neque sodales ut etiam sit. Porta non pulvinar neque laoreet suspendisse. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Velit aliquet sagittis id consectetur purus ut faucibus. Est ultricies integer quis auctor. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Porta non pulvinar neque laoreet suspendisse interdum. Diam quam nulla porttitor massa id. Rhoncus aenean vel elit scelerisque mauris. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Erat imperdiet sed euismod nisi porta lorem mollis. Egestas sed sed risus pretium quam. Dolor magna eget est lorem ipsum dolor. Amet risus nullam eget felis eget nunc. Ipsum dolor sit amet consectetur adipiscing elit. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit.
+Lloyd Moseby, Dave Stieb, George Bell, Ernie Whitt... these were the Blue Jays of my youth. The sound of Tom Cheek and Jerry Howarth calling a game on the radio was the background to many summer days.
+
+More recently I lived in downtown Toronto during the Blue Jays big runs of 2015 and 2016. I was in the Rogers Centre for Jose Bautista's "bat flip" home run, which is a moment I will never forget.
+
+I now have many fond memories of bringing my own daughter, Claire, to Blue Jays games as she grew up. Once the pandemic is over, I am looking forward to getting back out to ballgames with my friends and family.
 """)
                     .padding()
                 

@@ -16,9 +16,15 @@ struct PiperView: View {
                     .scaledToFit()
                 
                 Text("""
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Laoreet sit amet cursus sit amet. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Integer feugiat scelerisque varius morbi. Dapibus ultrices in iaculis nunc sed augue. Vehicula ipsum a arcu cursus vitae congue mauris. Pulvinar sapien et ligula ullamcorper malesuada proin. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Vivamus arcu felis bibendum ut tristique et egestas. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Quis vel eros donec ac odio tempor orci dapibus ultrices. Cursus turpis massa tincidunt dui ut ornare lectus. Proin libero nunc consequat interdum varius sit amet.
+Just under three years ago, my family welcomed a new member to our pack: Piper!
 
-Tellus molestie nunc non blandit massa enim nec dui. Neque sodales ut etiam sit. Porta non pulvinar neque laoreet suspendisse. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Velit aliquet sagittis id consectetur purus ut faucibus. Est ultricies integer quis auctor. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Porta non pulvinar neque laoreet suspendisse interdum. Diam quam nulla porttitor massa id. Rhoncus aenean vel elit scelerisque mauris. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Erat imperdiet sed euismod nisi porta lorem mollis. Egestas sed sed risus pretium quam. Dolor magna eget est lorem ipsum dolor. Amet risus nullam eget felis eget nunc. Ipsum dolor sit amet consectetur adipiscing elit. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit.
+Piper as a puppy packed a lot of pep! She was full of energy. While we were fortunate that she never showed much interest in chewing the furniture – something young Labradors are known for – she had no such compunction about my ankles. There was a period when she was about 10 weeks old where I would only go in the kitchen – the part of the house she was limited to at first – when wearing knee high rainboots. Protection. 😅
+
+My family thinks Piper at any age was adorable, but as a puppy she definitely had her moments. A favourite memory is watching Piper chew a stick with her "best friend"... the yellow Labrador who lives next door and is about five years older than Piper.
+
+These days Piper has slowed down a bit (she loves to sleep on our couch) but when she goes out for a walk (often at Northcote) she will tear around with complete abandon.
+
+We love Piper very much. 🥰
 """)
                     .padding()
                 
