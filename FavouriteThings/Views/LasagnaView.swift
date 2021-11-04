@@ -12,23 +12,8 @@ struct LasagnaView: View {
         ScrollView {
             VStack(alignment: .leading) {
 
-                VStack(alignment: .leading) {
-                    
-                    Image("Lasagna")
-                        .resizable()
-                        .scaledToFit()
-
-                    Group {
-                        Text("A very nicely presented dish of lasagna!")
-                            .bold()
-                        
-                        Text("Photo credit: Toronto Star")
-                            .italic()
-                    }
-                    .padding(.horizontal)
-                    .font(.caption)
-
-                }
+                // Create an INSTANCE of the extracted view
+                ExtractedView()
                 
                 
                 Text("""
@@ -59,3 +44,25 @@ struct LasagnaView_Previews: PreviewProvider {
 }
 
 
+// A new STRUCTURE has been created from the layout we just extracted
+struct ExtractedView: View {
+    var body: some View {
+        VStack(alignment: .leading) {
+            
+            Image("Lasagna")
+                .resizable()
+                .scaledToFit()
+            
+            Group {
+                Text("A very nicely presented dish of lasagna!")
+                    .bold()
+                
+                Text("Photo credit: Toronto Star")
+                    .italic()
+            }
+            .padding(.horizontal)
+            .font(.caption)
+            
+        }
+    }
+}
