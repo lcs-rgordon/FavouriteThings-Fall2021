@@ -23,7 +23,7 @@ struct FavouriteThingsListView: View {
                 
                 EnhancedListItemView(imageName: "BlueJays",
                                      title: "Blue Jays",
-                                     subtitle: "Without a doubt, the Blue Jays are the best team in the AL East")
+                                     subtitle: "Without a doubt, the Blue Jays are the best team in the AL East.")
                 
             })
 

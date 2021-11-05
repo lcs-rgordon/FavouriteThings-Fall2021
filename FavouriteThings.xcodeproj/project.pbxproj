@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E0A13AE2722CEF60050231A /* BlueJaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A13AD2722CEF60050231A /* BlueJaysView.swift */; };
 		0E0A13B1272631150050231A /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A13B0272631150050231A /* FavouriteThingsListView.swift */; };
+		0E94B4BF27353FF000BEB981 /* FavouriteThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94B4BE27353FF000BEB981 /* FavouriteThing.swift */; };
 		0EBBDA1A2731BD3E004DCA14 /* PhotoCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBBDA192731BD3E004DCA14 /* PhotoCaptionView.swift */; };
 		0EC858062732A723007C505B /* EnhancedListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC858052732A723007C505B /* EnhancedListItemView.swift */; };
 		0EDBF7D62721EF4A00F21448 /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBF7D52721EF4A00F21448 /* FavouriteThingsApp.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		0E0A13AD2722CEF60050231A /* BlueJaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueJaysView.swift; sourceTree = "<group>"; };
 		0E0A13B0272631150050231A /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
+		0E94B4BE27353FF000BEB981 /* FavouriteThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThing.swift; sourceTree = "<group>"; };
 		0EBBDA192731BD3E004DCA14 /* PhotoCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptionView.swift; sourceTree = "<group>"; };
 		0EC858052732A723007C505B /* EnhancedListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedListItemView.swift; sourceTree = "<group>"; };
 		0EDBF7D22721EF4A00F21448 /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,7 @@
 		0E0A13AF272626E90050231A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0E94B4BD27353FD000BEB981 /* Model */,
 				0EBBDA182731BD05004DCA14 /* Shared */,
 				0E0A13AD2722CEF60050231A /* BlueJaysView.swift */,
 				0EDBF7E32721F4AE00F21448 /* CheesecakeView.swift */,
@@ -61,6 +64,14 @@
 				0EDBF7D72721EF4A00F21448 /* PiperView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0E94B4BD27353FD000BEB981 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E94B4BE27353FF000BEB981 /* FavouriteThing.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0EBBDA182731BD05004DCA14 /* Shared */ = {
@@ -177,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E94B4BF27353FF000BEB981 /* FavouriteThing.swift in Sources */,
 				819368A527317D8E00BBAEDF /* JenView.swift in Sources */,
 				0EDBF7E42721F4AE00F21448 /* CheesecakeView.swift in Sources */,
 				0EDBF7D82721EF4A00F21448 /* PiperView.swift in Sources */,
