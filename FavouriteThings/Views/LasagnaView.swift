@@ -12,7 +12,9 @@ struct LasagnaView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 
-                PhotoCaptionView()
+                PhotoCaptionView(imageName: "Lasagna",
+                                 caption: "A well presented serving of the best meal that has ever existed, anywhere, any time.",
+                                 credit: "Photo credit: Foodom")
                 
                 Text("""
 What else is there to say here? Lasagna is obviously awesome. 🍴😋

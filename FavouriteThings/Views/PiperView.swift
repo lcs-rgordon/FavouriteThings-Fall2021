@@ -11,8 +11,10 @@ struct PiperView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                PhotoCaptionView()
-                
+                PhotoCaptionView(imageName: "Piper",
+                                 caption: "A very adorable Labrador who is always ready to meet a new friend.",
+                                 credit: "Photo credit: Russell Gordon")
+
                 Text("""
 Just under three years ago, my family welcomed a new member to our pack: Piper!
 

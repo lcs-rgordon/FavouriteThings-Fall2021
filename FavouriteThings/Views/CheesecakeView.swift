@@ -12,7 +12,9 @@ struct CheesecakeView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 
-                PhotoCaptionView()
+                PhotoCaptionView(imageName: "Cheesecake",
+                                 caption: "Cheesecake made right: with a graham cracker crust and a thick topping.",
+                                 credit: "Photo credit: Foodom")
                 
                 // NOTE: Must be sure that closing delimiter of a multi-line string matches indentation of the text
                 Text("""

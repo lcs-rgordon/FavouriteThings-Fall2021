@@ -12,7 +12,9 @@ struct ClaireView: View {
         ScrollView {
             VStack(alignment: .leading) {
 
-                PhotoCaptionView()
+                PhotoCaptionView(imageName: "Claire",
+                                 caption: "Claire while reading a book on a camping trip about six years ago.",
+                                 credit: "Photo credit: Russell Gordon")
                 
                 Text("""
 My daughter, Claire, is now 12 years old and in grade 7.
@@ -37,6 +39,8 @@ So, she did! This is one of my favourite memories of Claire. 🥰
 
 struct ClaireView_Previews: PreviewProvider {
     static var previews: some View {
-        ClaireView()
+        NavigationView {
+            ClaireView()
+        }
     }
 }
