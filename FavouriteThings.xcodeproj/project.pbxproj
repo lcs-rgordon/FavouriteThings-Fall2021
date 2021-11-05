@@ -7,36 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E0A13AE2722CEF60050231A /* BlueJaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A13AD2722CEF60050231A /* BlueJaysView.swift */; };
+		0E0A13AE2722CEF60050231A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A13AD2722CEF60050231A /* DetailView.swift */; };
 		0E0A13B1272631150050231A /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A13B0272631150050231A /* FavouriteThingsListView.swift */; };
 		0E94B4BF27353FF000BEB981 /* FavouriteThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94B4BE27353FF000BEB981 /* FavouriteThing.swift */; };
 		0EBBDA1A2731BD3E004DCA14 /* PhotoCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBBDA192731BD3E004DCA14 /* PhotoCaptionView.swift */; };
 		0EC858062732A723007C505B /* EnhancedListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC858052732A723007C505B /* EnhancedListItemView.swift */; };
 		0EDBF7D62721EF4A00F21448 /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBF7D52721EF4A00F21448 /* FavouriteThingsApp.swift */; };
-		0EDBF7D82721EF4A00F21448 /* PiperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBF7D72721EF4A00F21448 /* PiperView.swift */; };
 		0EDBF7DA2721EF4C00F21448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBF7D92721EF4C00F21448 /* Assets.xcassets */; };
 		0EDBF7DD2721EF4C00F21448 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBF7DC2721EF4C00F21448 /* Preview Assets.xcassets */; };
-		0EDBF7E42721F4AE00F21448 /* CheesecakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBF7E32721F4AE00F21448 /* CheesecakeView.swift */; };
-		819368A527317D8E00BBAEDF /* JenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819368A427317D8D00BBAEDF /* JenView.swift */; };
-		819368A727317DA100BBAEDF /* ClaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819368A627317DA100BBAEDF /* ClaireView.swift */; };
-		819368A927317DAC00BBAEDF /* LasagnaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819368A827317DAC00BBAEDF /* LasagnaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E0A13AD2722CEF60050231A /* BlueJaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueJaysView.swift; sourceTree = "<group>"; };
+		0E0A13AD2722CEF60050231A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0E0A13B0272631150050231A /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 		0E94B4BE27353FF000BEB981 /* FavouriteThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThing.swift; sourceTree = "<group>"; };
 		0EBBDA192731BD3E004DCA14 /* PhotoCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptionView.swift; sourceTree = "<group>"; };
 		0EC858052732A723007C505B /* EnhancedListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedListItemView.swift; sourceTree = "<group>"; };
 		0EDBF7D22721EF4A00F21448 /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDBF7D52721EF4A00F21448 /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
-		0EDBF7D72721EF4A00F21448 /* PiperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiperView.swift; sourceTree = "<group>"; };
 		0EDBF7D92721EF4C00F21448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EDBF7DC2721EF4C00F21448 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0EDBF7E32721F4AE00F21448 /* CheesecakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheesecakeView.swift; sourceTree = "<group>"; };
-		819368A427317D8D00BBAEDF /* JenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenView.swift; sourceTree = "<group>"; };
-		819368A627317DA100BBAEDF /* ClaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaireView.swift; sourceTree = "<group>"; };
-		819368A827317DAC00BBAEDF /* LasagnaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasagnaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +45,8 @@
 			children = (
 				0E94B4BD27353FD000BEB981 /* Model */,
 				0EBBDA182731BD05004DCA14 /* Shared */,
-				0E0A13AD2722CEF60050231A /* BlueJaysView.swift */,
-				0EDBF7E32721F4AE00F21448 /* CheesecakeView.swift */,
-				819368A627317DA100BBAEDF /* ClaireView.swift */,
+				0E0A13AD2722CEF60050231A /* DetailView.swift */,
 				0E0A13B0272631150050231A /* FavouriteThingsListView.swift */,
-				819368A427317D8D00BBAEDF /* JenView.swift */,
-				819368A827317DAC00BBAEDF /* LasagnaView.swift */,
-				0EDBF7D72721EF4A00F21448 /* PiperView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,16 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E94B4BF27353FF000BEB981 /* FavouriteThing.swift in Sources */,
-				819368A527317D8E00BBAEDF /* JenView.swift in Sources */,
-				0EDBF7E42721F4AE00F21448 /* CheesecakeView.swift in Sources */,
-				0EDBF7D82721EF4A00F21448 /* PiperView.swift in Sources */,
 				0E0A13B1272631150050231A /* FavouriteThingsListView.swift in Sources */,
 				0EC858062732A723007C505B /* EnhancedListItemView.swift in Sources */,
-				819368A727317DA100BBAEDF /* ClaireView.swift in Sources */,
 				0EBBDA1A2731BD3E004DCA14 /* PhotoCaptionView.swift in Sources */,
 				0EDBF7D62721EF4A00F21448 /* FavouriteThingsApp.swift in Sources */,
-				819368A927317DAC00BBAEDF /* LasagnaView.swift in Sources */,
-				0E0A13AE2722CEF60050231A /* BlueJaysView.swift in Sources */,
+				0E0A13AE2722CEF60050231A /* DetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
