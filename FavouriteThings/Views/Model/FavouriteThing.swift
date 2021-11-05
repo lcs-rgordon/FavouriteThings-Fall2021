@@ -7,9 +7,10 @@
 
 import Foundation
 
-struct FavouriteThing {
+struct FavouriteThing: Identifiable {
     
     // MARK: Stored properties
+    let id = UUID()
     let imageName: String
     let title: String
     let navigationSubtitle: String
