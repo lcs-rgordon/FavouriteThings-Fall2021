@@ -11,9 +11,10 @@ struct BlueJaysView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                Image("BlueJays")
-                    .resizable()
-                    .scaledToFit()
+                
+                PhotoCaptionView(photo: "BlueJays",
+                                 caption: "The 2021 Blue Jays celebrate after a walk-off win.",
+                                 credit: "Toronto Star")
                 
                 Text("""
 Growing up in Kitchener-Waterloo, I spent a lot of time with family that lived in areas nearby. My Aunt Phyllis and Uncle Bert in particular introduced me to baseball – or more specificially – Blue Jays baseball!

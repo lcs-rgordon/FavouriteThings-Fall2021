@@ -11,9 +11,10 @@ struct PiperView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                Image("Piper")
-                    .resizable()
-                    .scaledToFit()
+
+                PhotoCaptionView(photo: "Piper",
+                                 caption: "Here is Piper in her preferred position in our house – relaxing on the couch.",
+                                 credit: "Russell Gordon")
                 
                 Text("""
 Just under three years ago, my family welcomed a new member to our pack: Piper!

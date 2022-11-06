@@ -11,9 +11,10 @@ struct JenView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                Image("Jen")
-                    .resizable()
-                    .scaledToFit()
+
+                PhotoCaptionView(photo: "Jen",
+                                 caption: "Walking through Central Park in New York City in the rain.",
+                                 credit: "Russell Gordon")
                 
                 Text("""
 My spouse, Jen, is certainly not a "thing" but a member of my family whom I love and appreciate more than anything.

@@ -11,9 +11,10 @@ struct ClaireView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                Image("Claire")
-                    .resizable()
-                    .scaledToFit()
+
+                PhotoCaptionView(photo: "Claire",
+                                 caption: "I can't believe how quickly my daughter is growing. It's a cliché to say so, but it's true.",
+                                 credit: "Russell Gordon")
                 
                 Text("""
 My daughter, Claire, is now 13 years old and in grade 8.

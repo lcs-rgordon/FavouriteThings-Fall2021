@@ -11,9 +11,10 @@ struct CheesecakeView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                Image("Cheesecake")
-                    .resizable()
-                    .scaledToFit()
+                
+                PhotoCaptionView(photo: "Cheesecake",
+                                 caption: "A traditional New York-style cheesecake, with strawberries. 🤤",
+                                 credit: "New York Times Cooking")
                 
                 // NOTE: Must be sure that closing delimiter of a multi-line string matches indentation of the text
                 Text("""
