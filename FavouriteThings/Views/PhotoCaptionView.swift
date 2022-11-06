@@ -9,18 +9,26 @@ import SwiftUI
 
 struct PhotoCaptionView: View {
     
+    // MARK: Stored properties
+    let photo: String
+    let caption: String
+    let credit: String
+
+    // MARK: Computed properties
+    
+    // Returns an interface to show a photo with a caption and credit
     var body: some View {
         VStack(spacing: 10) {
-            Image("Lasagna")
+            Image(photo)
                 .resizable()
                 .scaledToFit()
             
             VStack(alignment: .leading) {
-                Text("A nicely presented serving of delicious, delicious lasagna.")
+                Text(caption)
                     .font(.caption)
                     .bold()
                 
-                Text("Photo credit: Foodom")
+                Text(credit)
                     .font(.caption)
                     .italic()
             }
@@ -32,6 +40,8 @@ struct PhotoCaptionView: View {
 
 struct PhotoCaptionView_Previews: PreviewProvider {
     static var previews: some View {
-        PhotoCaptionView()
+        PhotoCaptionView(photo: "Lasagna",
+                         caption: "A nicely presented serving of delicious, delicious lasagna.",
+                         credit: "Photo credit: Foodom")
     }
 }

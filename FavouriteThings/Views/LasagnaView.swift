@@ -13,8 +13,10 @@ struct LasagnaView: View {
             VStack(alignment: .leading) {
                 
                 // Show a photo with a caption
-                PhotoCaptionView()
-                
+                PhotoCaptionView(photo: "Lasagna",
+                                 caption: "A nicely presented serving of delicious, delicious lasagna.",
+                                 credit: "Photo credit: Foodom")
+
                 Text("""
 What else is there to say here? Lasagna is obviously awesome. 🍴😋
 
