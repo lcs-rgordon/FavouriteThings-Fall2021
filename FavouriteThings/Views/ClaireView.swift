@@ -16,7 +16,7 @@ struct ClaireView: View {
                     .scaledToFit()
                 
                 Text("""
-My daughter, Claire, is now 12 years old and in grade 7.
+My daughter, Claire, is now 13 years old and in grade 8.
 
 This is a photo of her when she was 6 years old. It was taken the day after she learned to read independently. Here's the story of how that happened...
 
