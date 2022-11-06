@@ -12,22 +12,8 @@ struct LasagnaView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 
-                VStack(spacing: 10) {
-                    Image("Lasagna")
-                        .resizable()
-                        .scaledToFit()
-                    
-                    VStack(alignment: .leading) {
-                        Text("A nicely presented serving of delicious, delicious lasagna.")
-                            .font(.caption)
-                            .bold()
-                        
-                        Text("Photo credit: Foodom")
-                            .font(.caption)
-                            .italic()
-                    }
-
-                }
+                // Show a photo with a caption
+                PhotoCaptionView()
                 
                 Text("""
 What else is there to say here? Lasagna is obviously awesome. 🍴😋
