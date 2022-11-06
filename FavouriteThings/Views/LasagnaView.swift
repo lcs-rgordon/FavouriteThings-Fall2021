@@ -36,7 +36,10 @@ If you like lasagna, [try this recipe](https://www.allrecipes.com/recipe/24074/a
 
 struct LasagnaView_Previews: PreviewProvider {
     static var previews: some View {
-        LasagnaView()
+        NavigationView {
+            LasagnaView()
+        }
+
     }
 }
 

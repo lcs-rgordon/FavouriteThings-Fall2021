@@ -34,7 +34,9 @@ This is a photo of Jen walking through Central Park in New York City when we vis
 
 struct JenView_Previews: PreviewProvider {
     static var previews: some View {
-        JenView()
+        NavigationView {
+            JenView()            
+        }
     }
 }
 

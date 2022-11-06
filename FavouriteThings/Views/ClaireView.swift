@@ -38,6 +38,8 @@ So, she did! This is one of my favourite memories of Claire. 🥰
 
 struct ClaireView_Previews: PreviewProvider {
     static var previews: some View {
-        ClaireView()
+        NavigationView {
+            ClaireView()
+        }
     }
 }
