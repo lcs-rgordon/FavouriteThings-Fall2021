@@ -27,11 +27,19 @@ struct PhotoCaptionView: View {
                 Text(caption)
                     .font(.caption)
                     .bold()
+                    .border(Color.blue)
                 
-                Text(credit)
-                    .font(.caption)
-                    .italic()
+                HStack {
+                    Text(credit)
+                        .font(.caption)
+                        .italic()
+                    .border(Color.orange)
+                    
+                    Spacer()
+                }
             }
+            .padding(2)
+            .border(Color.green)
 
         }
 
