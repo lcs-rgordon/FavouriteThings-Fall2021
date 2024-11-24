@@ -26,7 +26,7 @@ struct DetailView: View {
                 Spacer()
             }
         }
-        .navigationTitle("Blue Jays")
+        .navigationTitle(item.title)
         
     }
 }

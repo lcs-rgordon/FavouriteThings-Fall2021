@@ -37,7 +37,7 @@ Lloyd Moseby, Dave Stieb, George Bell, Ernie Whitt... these were the Blue Jays o
 
     FavouriteThing(imageName: "Cheesecake",
                    title: "Cheesecake",
-                   navigationSubtitle: "Cheesecake is divine and if you view this page, you can find out why.",
+                   navigationSubtitle: "Cheesecake is simply divine. End of story.",
                    imageCaption: "Cheesecake made right: with a graham cracker crust and a thick topping.",
                    imageCredit: "Photo credit: Foodom",
                    bodyText: """
@@ -60,7 +60,7 @@ Finally, I like to compare apples to apples. The classic "New York style" cheese
                    imageCaption: "Claire while reading a book on a camping trip about six years ago.",
                    imageCredit: "Photo credit: Russell Gordon",
                    bodyText: """
-My daughter, Claire, is now 12 years old and in grade 7.
+My daughter, Claire, is now 15 years old and in grade 10.
 
 This is a photo of her when she was 6 years old. It was taken the day after she learned to read independently. Here's the story of how that happened...
 
